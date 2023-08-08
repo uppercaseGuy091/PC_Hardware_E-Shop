@@ -1,2 +1,1 @@
-# pc_hardware_e-shop
-Created with CodeSandbox
+# Front-end side for a PC hardware e-shop app
