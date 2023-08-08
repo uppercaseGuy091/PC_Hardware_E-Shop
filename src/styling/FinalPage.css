@@ -1,0 +1,23 @@
+.shop-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f78531;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+  width: 15%;
+  text-align: center;
+  color: #fff;
+  width: 300px;
+}
+
+.shop-button:hover {
+  background-color: #da732a;
+}
+
+.shop-button:active {
+  background-color: #b15e22;
+}

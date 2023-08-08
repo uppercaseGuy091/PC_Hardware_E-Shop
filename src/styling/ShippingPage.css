@@ -1,0 +1,51 @@
+.container {
+  position: relative;
+}
+
+.submitOrder-btn {
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+  text-align: center;
+  background-color: #4caf50;
+  width: 20%;
+  font-size: 18px;
+}
+
+.submitOrder-btn:hover {
+  background-color: #46a149;
+}
+
+.submitOrder-btn:active {
+  background-color: #409443;
+}
+
+.previous-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 30px;
+  width: 15%;
+  text-align: center;
+}
+
+.previous-button:hover {
+  background-color: #e0e0e0;
+}
+
+.previous-button:active {
+  background-color: #d0d0d0;
+}
+
+.total-sum {
+  text-transform: uppercase;
+  font-weight: bold;
+}

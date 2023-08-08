@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap");
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.App {
+  margin-top: 100px; /* Add margin to the top of the content to prevent overlap with the fixed navbar */
+}
+
+.navigation-bar {
+  background-color: #004e4e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 999;
+}
+
+.navigation-link {
+  color: #fff;
+  text-decoration: none;
+  /* font-weight: bold; */
+  font-size: 18px;
+  margin-right: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navigation-link:hover {
+  color: #ff9c00;
+}
+
+.search-bar-container {
+  margin-left: 20px;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  background-color: #fdd835;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: #333;
+  cursor: pointer;
+}
